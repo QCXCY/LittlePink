@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824AF82726F36E970092C2A1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 824AF82626F36E970092C2A1 /* .gitignore */; };
 		82ED5C1226F0E8E30040DDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5C1126F0E8E30040DDA6 /* AppDelegate.swift */; };
 		82ED5C1426F0E8E30040DDA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5C1326F0E8E30040DDA6 /* SceneDelegate.swift */; };
 		82ED5C1626F0E8E30040DDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5C1526F0E8E30040DDA6 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		824AF82626F36E970092C2A1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		82ED5C0E26F0E8E30040DDA6 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ED5C1126F0E8E30040DDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82ED5C1326F0E8E30040DDA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		82ED5C0526F0E8E30040DDA6 = {
 			isa = PBXGroup;
 			children = (
+				824AF82626F36E970092C2A1 /* .gitignore */,
 				82ED5C1026F0E8E30040DDA6 /* LittlePink */,
 				82ED5C0F26F0E8E30040DDA6 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824AF82726F36E970092C2A1 /* .gitignore in Resources */,
 				82ED5C2126F0E8E50040DDA6 /* LaunchScreen.storyboard in Resources */,
 				82ED5C1E26F0E8E50040DDA6 /* Assets.xcassets in Resources */,
 				82ED5C1926F0E8E30040DDA6 /* Main.storyboard in Resources */,
@@ -300,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.que.LittlePink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.que.LittlePink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
